@@ -8,21 +8,22 @@
         Title="MainWindow" Height="377" Width="608" ResizeMode="NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200"/>
-            <ColumnDefinition Width="200"/>
-            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="200" />
         </Grid.ColumnDefinitions>
-        <ProgressBar x:Name="CatBar" HorizontalAlignment="Left" Height="20" Margin="60,40,0,0" VerticalAlignment="Top" Width="120"/>
-        <ProgressBar x:Name="CatBar_Copy" HorizontalAlignment="Left" Height="20" Margin="60,65,0,0" VerticalAlignment="Top" Width="120"/>
-        <ProgressBar x:Name="CatBar_Copy1" HorizontalAlignment="Left" Height="20" Margin="60,90,0,0" VerticalAlignment="Top" Width="120"/>
-        <ProgressBar x:Name="DogBar_Copy" HorizontalAlignment="Left" Height="20" Margin="59,65,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
-        <ProgressBar x:Name="DogBar_Copy1" HorizontalAlignment="Left" Height="20" Margin="59,90,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
-        <ProgressBar x:Name="DogBar" HorizontalAlignment="Left" Height="20" Margin="59,40,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
-        <ProgressBar x:Name="ParrotBar" HorizontalAlignment="Left" Height="20" Margin="58,40,0,0" VerticalAlignment="Top" Width="120" Grid.Column="2"/>
-        <Label x:Name="LCat" Content="КОТ" Margin="80,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,0.577" HorizontalAlignment="Left" Width="32"/>
-        <Label x:Name="LDog" Content="СОБАКА" Margin="89,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,0.577" Grid.Column="1" HorizontalAlignment="Left" Width="60"/>
-        <Label x:Name="LParrotBar" Content="ПОПУГАЙ" HorizontalAlignment="Left" Margin="68,0,-8,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,0.577" Width="140" Grid.Column="2"/>
-        
-
+        <ProgressBar x:Name="CatBar" Height="20" Margin="50,40,50,0" VerticalAlignment="Top"/>
+        <ProgressBar x:Name="CatBar_Copy" Height="20" Margin="50,65,50,0" VerticalAlignment="Top" />
+        <ProgressBar x:Name="CatBar_Copy1" Height="20" Margin="50,90,50,0" VerticalAlignment="Top" />
+        <ProgressBar x:Name="DogBar" Height="20" Margin="50,40,50,0" VerticalAlignment="Top" Grid.Column="1" />
+        <ProgressBar x:Name="DogBar_Copy" Height="20" Margin="50,65,50,0" VerticalAlignment="Top" Grid.Column="1" />
+        <ProgressBar x:Name="DogBar_Copy1" Height="20" Margin="50,90,50,0" VerticalAlignment="Top" Grid.Column="1" />
+        <ProgressBar x:Name="ParrotBar" Height="20" Margin="50,40,50,0" VerticalAlignment="Top" Grid.Column="2" />
+        <Label x:Name="LCat" Content="КОТ" Margin="80,0,80,0" VerticalAlignment="Top"
+               RenderTransformOrigin="0.658,0.577" HorizontalAlignment="Center" />
+        <Label x:Name="LDog" Content="СОБАКА" Margin="80,0,64,0" VerticalAlignment="Top"
+               RenderTransformOrigin="0.658,0.577" Grid.Column="1" HorizontalAlignment="Center" />
+        <Label x:Name="LParrotBar" Content="ПОПУГАЙ" Margin="65,0,70,0" VerticalAlignment="Top"
+               RenderTransformOrigin="0.658,0.577" Grid.Column="2" HorizontalAlignment="Center" />
     </Grid>
 </Window>
