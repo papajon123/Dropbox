@@ -24,5 +24,10 @@ namespace WpfApplication1
         {
             InitializeComponent();
         }
+
+        private void CatEat_Click(object sender, RoutedEventArgs e)
+        {
+            CatBar.Value += 1;
+        }
     }
 }

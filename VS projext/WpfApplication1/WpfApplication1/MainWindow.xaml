@@ -13,17 +13,24 @@
             <ColumnDefinition Width="200" />
         </Grid.ColumnDefinitions>
         <ProgressBar x:Name="CatBar" Height="20" Margin="50,40,50,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding ElementName=CatBar, Path=Value}" Margin="50,40,50,283" Width="101" TextAlignment="Center" Height="25"></TextBlock>
+
         <ProgressBar x:Name="CatBar_Copy" Height="20" Margin="50,65,50,0" VerticalAlignment="Top" />
         <ProgressBar x:Name="CatBar_Copy1" Height="20" Margin="50,90,50,0" VerticalAlignment="Top" />
+        <Button x:Name="CatEat" Content="cat" HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top" Width="75" Click="CatEat_Click"/>
         <ProgressBar x:Name="DogBar" Height="20" Margin="50,40,50,0" VerticalAlignment="Top" Grid.Column="1" />
         <ProgressBar x:Name="DogBar_Copy" Height="20" Margin="50,65,50,0" VerticalAlignment="Top" Grid.Column="1" />
         <ProgressBar x:Name="DogBar_Copy1" Height="20" Margin="50,90,50,0" VerticalAlignment="Top" Grid.Column="1" />
         <ProgressBar x:Name="ParrotBar" Height="20" Margin="50,40,50,0" VerticalAlignment="Top" Grid.Column="2" />
+        <ProgressBar x:Name="ParrotBar_Copy" Height="20" Margin="50,65,50,0" VerticalAlignment="Top" Grid.Column="2" />
+        <ProgressBar x:Name="ParrotBar_Copy1" Height="20" Margin="50,90,50,0" VerticalAlignment="Top" Grid.Column="2" />
         <Label x:Name="LCat" Content="КОТ" Margin="80,0,80,0" VerticalAlignment="Top"
                RenderTransformOrigin="0.658,0.577" HorizontalAlignment="Center" />
         <Label x:Name="LDog" Content="СОБАКА" Margin="80,0,64,0" VerticalAlignment="Top"
                RenderTransformOrigin="0.658,0.577" Grid.Column="1" HorizontalAlignment="Center" />
         <Label x:Name="LParrotBar" Content="ПОПУГАЙ" Margin="65,0,70,0" VerticalAlignment="Top"
                RenderTransformOrigin="0.658,0.577" Grid.Column="2" HorizontalAlignment="Center" />
+
+
     </Grid>
 </Window>
